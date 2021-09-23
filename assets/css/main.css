@@ -108,7 +108,16 @@ main {
 
 
 @media screen and (min-width: 768px) {
+
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+
   main {
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    padding: 0;
     flex-flow: row nowrap;
     align-items: stretch;
     max-width: 921px;
@@ -193,6 +202,8 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
+
+
   .right-part {
     flex: 1;
     height: 338px;
